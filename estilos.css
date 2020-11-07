@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&family=Open+Sans:wght@300;400&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -12,8 +13,9 @@ h1{
     border: solid 3px red;
     border-radius: 5px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Alegreya', serif;
     margin: 10px 20px 10px 20px;
+    font-size: 50px;
 }
 h4{
     text-align: center;
@@ -38,9 +40,58 @@ button{
 input{
     margin: 0;
 }
-img{
+.footer-logo{
     display: block;
     margin: auto;
     border: solid 3px red;
     border-radius: 5px;
 }
+.navbar li{
+    
+    display: inline;
+    margin: 0 25px 0 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #025157;
+}
+header{
+    font-size: 0%;
+    vertical-align: auto;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header>*{
+    display: inline-block;
+    font-size: 14px;
+}
+.logo{
+    width: 15%;
+}
+.navbar{
+    width: 70%;
+    text-align: center;
+}
+.actions{
+    text-align: center;
+    width: 15%;
+    font-size: 14px;
+    
+}
+.actions button{
+    background-color: #67B54B;
+    padding: 12px 14px 12px 14px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    color:white;
+}
+.actions a{
+    text-decoration: none;
+    color: #67B54B;
+    margin: 10px;
+}
+
